@@ -31,6 +31,27 @@ public class MainClass {
 		System.out.println("DOB : " + employee.getDob());
 		System.out.println("Salary : " + employee.getSalary());
 		System.out.println("Designation : " + employee.getDesignation());
+		System.out.println("-------------------------");
 
+		Manager manager = new Manager();
+		manager.setId(201);
+		manager.setName("Neha Prajapati");
+		manager.setAddress("Pune");
+		manager.setDob("14th Nov");
+		manager.setContactNo(9876543210L);
+		manager.setSalary(1000000.00f);
+		manager.setDesignation("Project Manager");
+		manager.setProjectId(1001);
+		manager.setProjectName("LCM");
+
+		System.out.println("Manager Details : ");
+		System.out.println("Id : " + manager.getId());
+		System.out.println("Name : " + manager.getName());
+		System.out.println("Address : " + manager.getAddress());
+		System.out.println("DOB : " + manager.getDob());
+		System.out.println("Salary : " + manager.getSalary());
+		System.out.println("Designation : " + manager.getDesignation());
+		System.out.println("Project Id : " + manager.getProjectId());
+		System.out.println("Project Name : " + manager.getProjectName());
 	}
 }
